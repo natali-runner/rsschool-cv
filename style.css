@@ -8,7 +8,8 @@ a{
 }
 
 html{
-  scroll-behavior: smooth;
+padding: 1em;
+scroll-behavior: smooth;
 background: color #c8cbde;
 }
 
@@ -17,8 +18,6 @@ style{
 }
 img {
 float: right;
-width: 160px;
-height: auto;
 }
 body{
   min-height: 100vh;
@@ -29,11 +28,6 @@ body{
 .main-container {
   display:grid;
   flex-wrap: wrap;
-}
-.container{
-  height: auto;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 .section {
   width: 50%;
