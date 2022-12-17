@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/img/setting.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -21,24 +23,24 @@
                 <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
             </ul>
         </nav>
-</div>
-</header>
-<main class="main">
-    <div class="container main-container">
         <section class="section section-profile" id="profile">
-            <img src="./assets/img/image.jpg" alt="my photo" width="200">
+            <img class="photo" src="./assets/img/image.jpg" alt="my photo" width="200">
             <h1 class="title">Natalia Sverbeikina</h1>
             <h3 class="title">Student RS-School</h3>
 </section>
 </div>
-<section class="contacts" id="contacts">
-    <h2 class="section-title">Contacts</h2>
-    <ul class="contact__list">
-        <li class="contact__item">Phone: + 79627224199</li>
-        <li class="contact__item">Email: <a href="mailto:ergodecor@mail.cz">ergodecor@email.cz</a></li>
-        <li class="contact__item">GitHub: natali-runner</li>
-    </ul>
-        </section>
+</header>
+<main class="main">
+<div class="container main-container">
+    <section class="contacts" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contact__list">
+            <li class="contact__item"><img class="logo" src="./assets/img/mail_logo.svg" alt="logo">   Email: <a class="link" href="mailto:ergodecor@mail.cz">ergodecor@email.cz</a></li>
+            <li class="contact__item"><img class="logo" src="./assets/img/github_logo.svg" alt="logo">   GitHub: <a class="link" href="https://github.com/natali-runner">natali-runner</a></li>
+            <li class="contact__item"><img class="logo" src="./assets/img/telegram_logo.svg" alt="logo">   Telegram: <a class="link" href="https://t.me/natali_runner">@natali_runner</a></li>
+            <li class="contact__item"><img class="logo" src="./assets/img/discord_logo.svg" alt="logo">   Discord: <a class="link" href="https://discordapp.com/users/1038020226975027232/">natali-runner#8495</a></li>
+        </ul>
+            </section>
         <section class="summary" id="summary">
             <h2 class="section-title">Summary</h2>
             <p>I have a BA in Art History and now I would like to master a new profession. I want to learn new skills, gain new experience, expand my professional opportunities. What inspires me in the profession of a developer is the visibility of the results obtained. I believe my attention to details and research skills will help me to train and gain knowledge and skills qualification in the front-end development.</p>
@@ -55,10 +57,12 @@
             <h2 class="section-title">Language</h2>
             <p>English level A2.<br>Czech level A1.</p>
         </section>
+</div>
 </main>
 <footer>
     <div class="footer-container">
         <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" alt="logo" width="100"></a>
+        <a href="https://discordapp.com/users/1038020226975027232/"><img src="./assets/img/icons8-discord.svg" alt="logo" width="50"></a>
         <a href="https://github.com/natali-runner"><i class="fa fa-github fa_custom fa-3x"></i></a>
         <a href="https://github.com/natali-runner">natali-runner 2022</a>
      </div>
