@@ -16,17 +16,19 @@
 <div class="container header-container">
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                <li class="nav-item"><a href="#contacts" class="link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="link">Education</a></li>
+                <li class="nav-item"><a href="#language" class="link">Language</a></li>
+                <li class="nav-item"><a href="#project" class="link">Project</a></li>
+                <li class="nav-item"><a href="#code" class="link">Code</a></li>
             </ul>
         </nav>
-        <section class="section section-profile" id="profile">
+        <section class="section section-profile">
             <img class="photo" src="./assets/img/image.jpg" alt="my photo" width="200">
             <h1 class="title">Natalia Sverbeikina</h1>
-            <h3 class="title">Student RS-School</h3>
+            <h4 class="title">Future Front-End Developer</h4>
 </section>
 </div>
 </header>
@@ -34,38 +36,57 @@
 <div class="container main-container">
     <section class="contacts" id="contacts">
         <h2 class="section-title">Contacts</h2>
-        <ul class="contact__list">
-            <li class="contact__item"><img class="logo" src="./assets/img/mail_logo.svg" alt="logo">   Email: <a class="link" href="mailto:ergodecor@mail.cz">ergodecor@email.cz</a></li>
-            <li class="contact__item"><img class="logo" src="./assets/img/github_logo.svg" alt="logo">   GitHub: <a class="link" href="https://github.com/natali-runner">natali-runner</a></li>
-            <li class="contact__item"><img class="logo" src="./assets/img/telegram_logo.svg" alt="logo">   Telegram: <a class="link" href="https://t.me/natali_runner">@natali_runner</a></li>
-            <li class="contact__item"><img class="logo" src="./assets/img/discord_logo.svg" alt="logo">   Discord: <a class="link" href="https://discordapp.com/users/1038020226975027232/">natali-runner#8495</a></li>
+        <ul class="contact-list">
+            <li class="contact-item"><img class="logo" src="./assets/img/mail_logo.svg" alt="logo">   Email: <a class="link" href="mailto:ergodecor@mail.cz">ergodecor@email.cz</a></li>
+            <li class="contact-item"><img class="logo" src="./assets/img/github_logo.svg" alt="logo">   GitHub: <a class="link" href="https://github.com/natali-runner">natali-runner</a></li>
+            <li class="contact-item"><img class="logo" src="./assets/img/telegram_logo.svg" alt="logo">   Telegram: <a class="link" href="https://t.me/natali_runner">@natali_runner</a></li>
+            <li class="contact-item"><img class="logo" src="./assets/img/discord_logo.svg" alt="logo">   Discord: <a class="link" href="https://discordapp.com/users/1038020226975027232/">natali-runner#8495</a></li>
         </ul>
-            </section>
+    </section>
         <section class="summary" id="summary">
             <h2 class="section-title">Summary</h2>
             <p>I have a BA in Art History and now I would like to master a new profession. I want to learn new skills, gain new experience, expand my professional opportunities. What inspires me in the profession of a developer is the visibility of the results obtained. I believe my attention to details and research skills will help me to train and gain knowledge and skills qualification in the front-end development.</p>
         </section>
-        <section class="skills" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <p>Responsible, Perseverance, Flexibility.</p>
-        </section>
+    <section class="skills" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p>HTML, CSS, GIT.</p>
+        <p>Responsible, Perseverance, Flexibility.</p>
+    </section>
         <section class="education" id="education">
             <h2 class="section-title">Education</h2>
             <p>BA History of Art, St.Petersburg State University.</p>
         </section>
         <section class="language" id="language">
             <h2 class="section-title">Language</h2>
-            <p>English level A2.<br>Czech level A1.</p>
+            <p>English level A2.</p>
+            <p>Czech level A1.</p>
         </section>
-</div>
-</main>
-<footer>
+    </div>
+        <div class="example">
+            <section class="code" id="code">
+                <h2 class="section-title">Code</h2>
+<pre class="pre"><code>*from https://www.codewars.com/:
+ function saleHotdogs(n) {
+   if (n &lt; 5) return "100" * n;
+   else if (n &gt; = 5 &amp;&amp; n &lt; 10) return "95" * n;
+   else if (n &gt; = 10) return "90" * n;
+        }</code></pre>
+            </section>
+                <section class="project" id="project">
+                    <h2 class="section-title">Project</h2>
+                    <a class="link-project" href="https://natali-runner.github.io/rsschool-cv/">
+                        <div class="project-title" data-title="CV Project (HTML,CSS)"><img class="photo-cv" src="./assets/img/project.png" alt="photo-project" width="200"></div>
+                        </a>
+                    </section>
+                </div>
+            </main>
+    <footer>
     <div class="footer-container">
         <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" alt="logo" width="100"></a>
         <a href="https://discordapp.com/users/1038020226975027232/"><img src="./assets/img/icons8-discord.svg" alt="logo" width="50"></a>
         <a href="https://github.com/natali-runner"><i class="fa fa-github fa_custom fa-3x"></i></a>
-        <a href="https://github.com/natali-runner">natali-runner 2022</a>
+        <a class="link" href="https://github.com/natali-runner">natali-runner 2022</a>
      </div>
-</footer>
+    </footer>
 </body>
 </html>
