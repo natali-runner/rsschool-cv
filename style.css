@@ -9,7 +9,7 @@ background-image: url(./assets/img/back.jpg);
 }
 
 body{
-  display:grid;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Chivo Mono', sans-serif;
@@ -65,24 +65,27 @@ vertical-align: sub;
 .link{
 color:dimgrey;
 }
+.skill-list{
+list-style: none;
+line-height: 50px;
+padding: 0%;
+}
 
 .code{
 display:flexbox;
-float: right;
-width: 50%;
+float:right;
 }
 
 .project{
 display:flexbox;
-float: left;
-width: 50%;
+float:left;
 }
 .photo-cv{
   border: 2px solid black;
   }
 .project-title{
-  display: inline-block;
-  position: relative;
+  display: flex;
+  position:relative;
 }
 .project-title:hover::after{
 content: attr(data-title);
@@ -103,14 +106,12 @@ text-align: center;
 padding: 5%;
 }
 .example{
-border-top: 10px solid black;
+border-top: 5px solid black;
 }
 .footer-container{
-  display: flex;
+  display:flex;
   justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  margin-top:50px;
+margin-top: 10%;
 }
 .fa_custom {
   color:
